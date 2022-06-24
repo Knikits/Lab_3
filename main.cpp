@@ -10,6 +10,8 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
+    QApplication a(argc, argv);
+
     string type = "TypeGraph";
     string To = "SomePath";
     Printer printGraphA;
@@ -19,7 +21,6 @@ int main(int argc, char *argv[])
     graph = generatorGraph.getGraph(dataGraph, "TypeGraph");
     graph.PrintPdf(To);
 
-    QApplication a(argc, argv);
     MainWindow w;
     w.show();
     return a.exec();
