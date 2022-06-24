@@ -13,6 +13,9 @@ SOURCES += \
     mainwindow.cpp
 
 HEADERS += \
+    DataGraph.h \
+    GeneratorGraph.h \
+    Graph.h \
     Printer.h \
     mainwindow.h
 
