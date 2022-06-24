@@ -26,3 +26,8 @@ void MainWindow::on_pushButton_2_clicked()
     qDebug() << str;
 }
 
+void MainWindow::on_pushButton_clicked()
+{
+
+}
+
