@@ -168,6 +168,8 @@ IOCContainer gContainer;
 
 int IOCContainer::s_typeId = 121;
 
+/*
+
 //Здесь, примеры различных интерфесов, классов
 ///////////////////////////////////////////////////////////////////////////
  // интерфейс какого-то объекта
@@ -317,5 +319,7 @@ int main()
     cout<<gContainer.GetObject<IRepository>()->Save()<<endl;
 
 }
+
+*/
 
 #endif // IOCCONTAINER_H
