@@ -1,9 +1,22 @@
 #ifndef GRAPH_H
 #define GRAPH_H
 
-class Graph
+class IGraph
 {
 
 };
+
+class BarChart
+{
+
+};
+
+class PieChart
+{
+
+};
+
+
+
 
 #endif // GRAPH_H
